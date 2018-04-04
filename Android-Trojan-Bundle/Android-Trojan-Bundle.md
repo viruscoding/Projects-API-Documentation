@@ -36,7 +36,7 @@
 | status | 四个值: processing&nbsp;&nbsp;&nbsp;&nbsp;completed&nbsp;&nbsp;&nbsp;&nbsp;uncompleted&nbsp;&nbsp;&nbsp;&nbsp;error |
 |		| processing: apk正在捆绑中 |
 |		| completed: 捆绑完成 ， |
-|		| uncompleted: apk正在捆绑中 |
+|		| uncompleted: apk捆绑失败 |
 |		| error: 任务不存在 |
 | des | 如果出错，描述错误信息；方便调试，建议写入日志 |
 
