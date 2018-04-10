@@ -15,12 +15,12 @@
 
 返回参数说明:
 
-	上传失败格式: {"des":"xxx", "status":"error"}
-	上传成功格式: {"des":"success", "status":"success", "apkname":"xxx.apk"}
+	上传失败格式: {"des":"xxx", "status":"err"}
+	上传成功格式: {"des":"ok", "status":"ok", "apkname":"xxx.apk"}
 
 | 参数 | 说明 |
 | --- | --- |
-| status | 两个值: success&nbsp;&nbsp;&nbsp;&nbsp;error |
+| status | 两个值: ok&nbsp;&nbsp;&nbsp;&nbsp;err |
 | des | 如果上传失败，描述错误信息；方便调试，建议写入日志 |
 | apkname | apk name，用于检测后台绑定进度或者下载绑定完成的apk |
 
@@ -42,7 +42,7 @@
 |		| processing: apk正在捆绑中 |
 |		| completed: 捆绑完成 ， |
 |		| uncompleted: apk捆绑失败 |
-|		| error: 任务不存在 |
+|		| err: 任务不存在 |
 | des | 如果出错，描述错误信息；方便调试，建议写入日志 |
 
 
@@ -55,9 +55,9 @@
 返回参数说明:
 	
 	下载失败，状态码为：404
-	下载失败响应数据格式: {"des":"xxx", "status":"error"}
+	下载失败响应数据格式: {"des":"xxx", "status":"err"}
 
 | 参数 | 说明 |
 | --- | --- |
-| status | 一个值：error |
+| status | err |
 | des | 描述错误信息；方便调试，建议写入日志|
