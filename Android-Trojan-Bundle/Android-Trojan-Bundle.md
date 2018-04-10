@@ -38,7 +38,7 @@
 
 | 参数 | 说明 |
 | --- | --- |
-| status | 四个值: processing&nbsp;&nbsp;&nbsp;&nbsp;completed&nbsp;&nbsp;&nbsp;&nbsp;uncompleted&nbsp;&nbsp;&nbsp;&nbsp;error |
+| status | 四个值: processing&nbsp;&nbsp;&nbsp;&nbsp;completed&nbsp;&nbsp;&nbsp;&nbsp;uncompleted&nbsp;&nbsp;&nbsp;&nbsp;err |
 |		| processing: apk正在捆绑中 |
 |		| completed: 捆绑完成 ， |
 |		| uncompleted: apk捆绑失败 |
