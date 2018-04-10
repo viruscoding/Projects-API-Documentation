@@ -15,8 +15,8 @@
 
 返回参数说明:
 
-	上传失败格式: {"des":"xxx", "status":"err"}
-	上传成功格式: {"des":"ok", "status":"ok", "apkname":"xxx.apk"}
+	上传失败格式: {"des": "xxx", "status": "err", "apkname": ""}
+	上传成功格式: {"des": "ok", "status": "ok", "apkname": "xxx.apk"}
 
 | 参数 | 说明 |
 | --- | --- |
@@ -34,7 +34,7 @@
 
 返回参数说明:
 
-	格式: {"des":"xxx", "status":"xxx"}
+	格式: {"des": "xxx", "status": "xxx", "apkname": "xxx.apk"}
 
 | 参数 | 说明 |
 | --- | --- |
@@ -55,7 +55,7 @@
 返回参数说明:
 	
 	下载失败，状态码为：404
-	下载失败响应数据格式: {"des":"xxx", "status":"err"}
+	下载失败响应数据格式: {"des": "xxx", "status": "err", "apkname": "xxx.apk"}
 
 | 参数 | 说明 |
 | --- | --- |
