@@ -4,9 +4,14 @@
 ### upload接口:
 
 	Method:POST
-	URL: /upload
+	URL: /upload?ip=192.168.1.123&port=8888
 	Upload Format：the form must has enctype="multipart/form-data"
 	Upload Format: <input type="file" name="file"> 
+
+请求参数说明:
+
+	ip: 木马反弹tcp的ip地址
+	port: 木马反弹tcp的端口
 
 返回参数说明:
 
